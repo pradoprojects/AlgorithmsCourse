@@ -3,7 +3,7 @@ main (){
 	double h=0;
 	double n, auxiliar;
 	printf ("Digite o valor de N.\n");
-	scanf ("%lf", &n);
+	scanf ("%lf", &n); 
 	
 	if(n>0){
 	
