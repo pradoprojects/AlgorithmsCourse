@@ -1,5 +1,23 @@
+/*
+	@author Marllos
+
+	Write a program that, having as input the price of a product and its source code, displays the price along with its origin. If the code is none of those specified, the product must be regarded as imported. Follow the code table below:
+
+	source code --> Origin
+			1	--> South
+			2	--> North
+			3	--> East
+			4	--> West
+		5 or 6	--> Northeast
+	 7, 8 or 9	--> Southeast
+	  10 to 20	--> Midwest
+	  25 to 30	--> Northeast
+		
+
+*/
+
 #include<stdio.h>
-main()
+int main()
 {
 	float P;
 	int   C;
@@ -41,5 +59,5 @@ main()
 		}
 	
 	}
-	system("PAUSE");
+	return 0;
 }

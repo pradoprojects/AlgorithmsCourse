@@ -1,6 +1,11 @@
+/*
+	@Author Marllos Prado
+	Change the ideal weight program so that it receives, in addition to the height, the user's current weight, and check if he is at the ideal weight. If so, inform the user that he is at his ideal weight.
+*/
+
 #include<stdio.h>
 
-main()
+int main()
 {
 	float altura=0;
 	float peso_ideal=0;
@@ -31,5 +36,6 @@ main()
 	printf("O seu peso ideal eh: %0.2f \n",peso_ideal);
 	
 
-	system("PAUSE");
+
+	return 0;
 }

@@ -1,5 +1,14 @@
-#include <stdio>
-main(){
+/*
+	@author Marllos Prado
+
+Write a program that reads a set of N non-zero integers and shows which was the largest and smallest value given. Use the value zero to terminate the program.
+
+Note: the user must not inform a priori the value of N in the program.
+
+*/
+
+#include <stdio.h>
+int main(){
 	
 	int valor;
 	int menor;
@@ -30,5 +39,6 @@ main(){
 	
 	printf("O menor valor eh %d \n", menor);
 	printf("O maior valor eh %d \n", maior);
-	system("PAUSE");
+
+	return 0;
 }

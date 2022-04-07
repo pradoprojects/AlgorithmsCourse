@@ -1,6 +1,19 @@
+/*
+	@author Marllos Prado
+	Write a program that takes the age of a swimmer and prints its category following the rules:
+	
+	Category 	--> Age
+	Child A  	--> 5 - 7 years
+	Child B  	--> 8 - 10 years
+	Juvenile A  --> 11 - 13 years
+	Juvenile B  --> 14 - 17 years
+ 
+	If it does not fit into any category, the program must inform the user of this
+*/
+
 #include<stdio.h>
 
-main(){
+int main(){
     int idade;
     
     printf("Nadador informe sua idade e aperte enter \n");
@@ -28,6 +41,6 @@ main(){
 		    
 	}
     
-system("PAUSE");
 
+	return 0;
 }   

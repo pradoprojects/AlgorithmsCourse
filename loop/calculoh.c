@@ -1,5 +1,10 @@
+/*
+	@author Marllos Prado
+	Let h= 1 + ½ + 1/3 + ¼ + ... + 1/N, prepare an algorithm to calculate the number h, with the number N provided by the user.
+*/
+
 #include<stdio.h>
-main (){
+int main (){
 	double h=0;
 	double n, auxiliar;
 	printf ("Digite o valor de N.\n");
@@ -16,5 +21,6 @@ main (){
 	}
 	
 	
-	system ("PAUSE");
+
+	return 0;
 }

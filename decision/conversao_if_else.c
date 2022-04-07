@@ -1,5 +1,9 @@
+/*
+	@author Marllos Prado
+	Modify the temperature conversion program so that the user can choose whether to convert from Celsius ? Farenheit (option 1) or from Farenheit ? Celsius (option 2) before providing the temperature value to be converted.
+*/
 #include <stdio.h>
-main (){
+int main (){
 	
 	double Celsius;
 	double Fahrenheit;
@@ -25,6 +29,6 @@ main (){
 		}	    
 	}
 	
-	system ("PAUSE");
 
+	return 0;
 }   

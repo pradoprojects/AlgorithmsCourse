@@ -1,5 +1,9 @@
+/*
+	@author Marllos Prado
+*/
+
 #include <stdio.h>
-main(){
+int main(){
 	int x[5];
 	int i;
 	int soma;
@@ -20,7 +24,6 @@ main(){
 	}
 	
 	printf("%d \n", soma);
-	system("PAUSE");
 	
-	
+	return 0;
 }

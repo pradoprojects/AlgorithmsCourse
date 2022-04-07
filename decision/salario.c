@@ -1,6 +1,19 @@
+/*
+	@author Marllos Prado
+	Write a program that receives the annual salary and the code corresponding to an employee's position and prints his position and salary with the percentage increase to which this employee is entitled, following the rules below:
+	
+		   Code --> Position --> Percentage
+			1	--> Clerk	 --> 50%
+			2	--> Secretary--> 35%
+			3	--> Cashier	 --> 20%
+			4	--> Manager	 --> 10%
+			5	--> Director --> 0%
+			
+*/
+
 #include <stdio.h>
 
-main(){
+int main(){
 	int cod;
 	float salario;
 	
@@ -36,6 +49,6 @@ main(){
 		default: printf("Cargo invalido");
 	}
 	
-	system("PAUSE");
+	return 0;
 	
 }

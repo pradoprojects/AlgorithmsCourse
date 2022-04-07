@@ -1,7 +1,13 @@
+/*
+	@author Marllos Prado
+	Write a program that calculates the sum of the following formula varying j from 0 to 7 for each value of i ranging from 0 to 7:
+	((2*j+1)*i)/(2*j+5)	
+*/
+
 #include<stdio.h>
 
 
-main(){
+int main(){
 	float i, j;
 	float soma = 0;
 	int contadora=0;
@@ -15,6 +21,6 @@ main(){
 	}
 	printf("Somatorio: %f \n", soma);
 	printf("Total repeticao: %d \n", contadora);
-	system("PAUSE");
-
+	
+	return 0;
 }

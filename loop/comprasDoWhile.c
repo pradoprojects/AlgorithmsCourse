@@ -1,3 +1,18 @@
+/*
+	@author Marllos Prado
+A store uses the following codes for each day's transactions:
+
+'d' - for cash purchases
+'c' - for cash purchases by check
+'s' - to exit the program
+
+Write a program that will receive a list of transactions containing the value of each purchase and the respective transaction code. The program must calculate and print at the end:
+
+- total value of cash purchases
+- total amount of cash purchases by check
+- total value of purchases made.
+*/
+
 #include <stdio.h>
 
 int main(){
@@ -53,4 +68,5 @@ int main(){
 	printf("O total de compras eh: %0.2f \n", totalCompra);
 	
 
+	return 0;
 }

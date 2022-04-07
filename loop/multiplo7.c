@@ -1,3 +1,8 @@
+/*
+	@author Marllos Prado
+	Generate and list all multiples of the number 7 less than or equal to 100.
+*/
+
 #include "stdio.h"
 
 int main(){
@@ -8,6 +13,6 @@ int main(){
 		printf("O valor %d eh multiplo de 7 \n", cont);			
 		
 	}
-	system("pause");
-
+	
+	return 0;
 }
