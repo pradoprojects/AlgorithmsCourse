@@ -1,3 +1,10 @@
+/*
+@author Marllos Prado
+Write a C program with a function that finds the greater value between two integers.
+
+Note: use global variables
+*/
+
 #include <stdio.h>
 int v1, v2; //variáveis de escopo global
 

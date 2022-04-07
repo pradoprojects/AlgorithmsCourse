@@ -1,3 +1,10 @@
+/*
+@author Marllos Prado
+Write a C program that modularizes the solution to the triangle problem. Define a function to check whether or not three sides form a triangle and another just to check whether three sides are an equilateral, isosceles or scalene triangle. Demonstrate the use of functions with a program that allows the user to do as many checks as he wants until he finishes, typing -1 as an output command.
+
+Note: use only local variables
+*/
+
 #include<stdio.h>
 
 //implementado com variaveis locais
