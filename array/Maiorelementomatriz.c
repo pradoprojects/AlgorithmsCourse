@@ -1,9 +1,12 @@
+/*
+	@author Marllos Prado
+	Write a program that reads a 3 x 2 dimensional matrix A of integers. Check which is its biggest element and print it along with its position in the matrix (row and column)
+*/
+
 #include <stdio.h>
 
-// Em caso de 2 ou mais valores iguais e maiores que os demais,
-// esse programa sempre retorna a primeira ocorrência.
 
-main(){
+int main(){
 	float m[3][2];
 	int i, j;
 	int x, y;
@@ -32,5 +35,5 @@ main(){
 	}
 	printf("O maior valor eh %f na posicao %d %d da matriz \n", maior, x, y);
 	
-	system("PAUSE");
+	return 0;
 }

@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-// Em caso de 2 ou mais valores iguais e maiores que os demais,
-// esse programa sempre retorna a primeira ocorrência.
+/* 
+@author Marllos Prado
+ Write a program that receives from the user a 3x2 matrix of integers and calculates the sum of all its terms.
+*/
 
-main(){
+int main(){
 	float m[3][2];
 	int i, j;
 	int x, y;
@@ -31,5 +33,5 @@ main(){
 	}
 	printf("O maior valor eh %f na posicao %d %d da matriz \n", maior, x, y);
 	
-	system("PAUSE");
+	return 0;
 }

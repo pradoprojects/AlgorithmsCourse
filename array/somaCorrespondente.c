@@ -1,5 +1,10 @@
+/*
+	@author Marllos Prado
+	Given two sequences of 5 numbers informed by the user, calculate the sum of each number with its correspondent.
+
+*/
 #include <stdio.h>
-main(){
+int main(){
 	int x[5];
 	int y[5];
 	int i;
@@ -23,7 +28,6 @@ main(){
 		printf("%d \n", soma);
 	
 	}
-	system("PAUSE");
 	
-	
+	return 0;
 }

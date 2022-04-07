@@ -1,6 +1,11 @@
+/*
+	@author Marllos Prado
+	Write a program that receives a 4x2 matrix of real values from the user. Determine and display the average of the values in each row of the matrix.
+*/
+
 #include <stdio.h>
 
-main(){
+int main(){
 	float m[4][2];
 	int i, j;
 	float media, somatorio=0;
@@ -24,5 +29,5 @@ main(){
 	}
 	
 	
-	system("PAUSE");
+	return 0;
 }

@@ -1,6 +1,11 @@
+/*
+	@author Marllos Prado
+	Write a program that reads a 4x3 matrix from the user and prints it on the screen in matrix format.
+*/
+
 #include<stdio.h>
 
-main(){
+int main(){
 	int m[4][3];
 	int linha, coluna;
 	
@@ -19,5 +24,6 @@ main(){
 		}
 		printf("\n");		
 	}
-	system("PAUSE");
+	
+	return 0;
 }

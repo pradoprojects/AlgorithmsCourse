@@ -1,5 +1,6 @@
 /*
 	@author Marllos Prado
+	Read 5 numbers from user, storing them in the array X[5]. Calculate the sum of these 5 numbers and display it on the screen.
 */
 
 #include <stdio.h>

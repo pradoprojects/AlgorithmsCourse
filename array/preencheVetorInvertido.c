@@ -1,5 +1,10 @@
+/*
+	@author Marllos Prado
+	Read 5 numbers, storing them in array X[5]. Copy this array, backwards (in reverse reading order), into a second vector Y[5]. Show the Y vector.
+*/
+
 #include <stdio.h>
-main(){
+int main(){
 	int x[5];
 	int y[5];
 	int i;
@@ -20,7 +25,7 @@ main(){
 	}
 	
 	
-	system("PAUSE");
+	return 0;
 	
 	
 }
